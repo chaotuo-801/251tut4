@@ -18,4 +18,13 @@ public class TestCalc
         result = new Calc().add(a1, a2);
         assertEquals(4, result);
     }
+
+    @Test
+    public void Testsubtract(){
+        int b1=4;
+        int b2=1;
+        int result2;
+        result2 = new Calc().subtract(b1, b2);
+        assertEquals(3, result2);
+    }
 }
